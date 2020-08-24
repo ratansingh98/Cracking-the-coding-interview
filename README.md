@@ -12,3 +12,9 @@ This repo contains my solution of cracking the coding interview 6th edition book
 7. Rotate Matrix.
 8. Zero Matrix.
 9. String Rotation.
+
+## Linked Lists
+1. Remove Dups.
+2. Return Kth to Last.
+3. Delete Middle Node.
+4. Partition.
