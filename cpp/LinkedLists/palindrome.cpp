@@ -102,6 +102,27 @@ void flush(){
 }
 
 
+void palindrome(){
+    struct Node * current1 = (struct Node*)malloc(sizeof(struct Node));
+    current1 = head;
+
+    reverse();
+    struct Node * current2 = (struct Node*)malloc(sizeof(struct Node));
+    current2 = head;
+    
+    while(current1 !=NULL){
+        if(current1->data != current2->data){
+            cout<<"Not Palindrome\n";
+            return;
+        }
+        current1 = current1->next;
+        current2 = current2->next;
+    }
+    cout<<"palindrome\n";
+
+}
+
+
 int main() {
     insert(3);
     insert(1);
@@ -109,8 +130,19 @@ int main() {
     insert(2);
     insert(9);
     insert(8);
-    cout<<"The linked list is: ";
-    display();
+    palindrome();
+
+    flush();
+
+    insert(1);
+    insert(0);
+    insert(3);
+    insert(3);
+    insert(0);
+    insert(1);
+    palindrome();
+
+
     
     return 0;
 }
