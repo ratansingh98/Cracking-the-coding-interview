@@ -22,3 +22,11 @@ This repo contains my solution of cracking the coding interview 6th edition book
 6. Palindrome.
 7. Intersection.
 8. Loop Detection.
+
+## Stack and Queues
+1. Three in One.
+2. Stack Min.
+3. Stack of Plates.
+4. Queue via Stack.
+5. Sort Stack.
+6. Animal Shelter.
