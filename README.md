@@ -30,3 +30,10 @@ This repo contains my solution of cracking the coding interview 6th edition book
 4. Queue via Stack.
 5. Sort Stack.
 6. Animal Shelter.
+
+## Trees and Graph
+1. Route Between Nodes.
+2. Minimal Tree.
+3. List of Depths.
+4. Check Balanced.
+5. Validate BST.
